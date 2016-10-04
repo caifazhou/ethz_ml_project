@@ -3,4 +3,12 @@ Notes
 
 Documentation
 1.Dataset name
+format: 'cluster_#_org.csv'
+-org indicates that there is no transformation to the MRI intensity values
+-# stands for the number of cluster used in k++ means clustering method
+
+2.Data description
+- each column is a data point;
+- there are six statistical features: mean, variance, standard variance, median, skewness, and kurtosis.
+- the last row the age value
 
