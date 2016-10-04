@@ -1,0 +1,6 @@
+Notes
+1. Better to extract the statistical feature from the intensity of the MRI directly rather than from the normalized intensity of MRI;
+
+Documentation
+1.Dataset name
+
