@@ -1,0 +1,29 @@
+LWPR library  
+(C) 2007 Stefan Klanke and Sethu Vijayakumar
+sethu.vijayakumar@ed.ac.uk
+
+
+Version 1.1
+---------------------------------------------------------
+* Added support for autotools
+   On Linux/Unix, use  configure, make, make install
+   to build and install shared and static libraries
+
+* Fixed bug in XML and binary I/O routines: 
+   flag update_D was not included
+
+* Fixed bug for reading XML files: 
+   SubModel counter was not properly increased
+
+* Added project files for Visual Studio 2008 
+   (only tested with Express version)
+
+* Added simple Makefile for MinGW compiler 
+
+* Introduced "BINIO version" information in binary files 
+   (breaks compatibility with V1.0)
+
+
+Version 1.0
+---------------------------------------------------------
+* First public release, initial submission to JMLR
